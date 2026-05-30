@@ -6,7 +6,7 @@ import { RecommendationCard } from './RecommendationCard';
 import './RecommendationList.css';
 
 export const RecommendationList: React.FC = () => {
-  const { recommendations, loading, error } = useRecommendations();
+  const { recommendations, loading, error, fetchRecommendations } = useRecommendations();
   const [showForm, setShowForm] = useState(true);
 
   // Recommendations are fetched by RecommendationForm; toggle shows results
@@ -17,7 +17,11 @@ export const RecommendationList: React.FC = () => {
 
       {showForm ? (
         <div className="form-wrapper">
-          <RecommendationForm />
+          <RecommendationForm
+            fetchRecommendations={fetchRecommendations}
+            loading={loading}
+            onClose={() => setShowForm(false)}
+          />
         </div>
       ) : (
         <>

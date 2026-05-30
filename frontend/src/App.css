@@ -16,7 +16,14 @@
     outline-offset: 2px;
   }
 }
-
+.hero-buttons {
+  display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
 .hero {
   position: relative;
 
@@ -25,7 +32,7 @@
   .vite {
     inset-inline: 0;
     margin: 0 auto;
-  }
+  } 
 
   .base {
     width: 170px;

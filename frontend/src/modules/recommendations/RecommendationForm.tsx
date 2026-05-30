@@ -1,17 +1,29 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import type { UserPreferences } from '../../interfaces';
-import { useRecommendations } from '../../hooks';
 import './RecommendationForm.css';
 
-export const RecommendationForm: React.FC = () => {
-  const { fetchRecommendations, loading } = useRecommendations();
+type Props = {
+  fetchRecommendations: (
+    preferences: UserPreferences,
+    limit?: number
+  ) => Promise<void>;
+  loading: boolean;
+  onClose?: () => void;
+};
+
+export const RecommendationForm: React.FC<Props> = ({
+  fetchRecommendations,
+  loading,
+  onClose,
+}) => {
   const [preferences, setPreferences] = useState<UserPreferences>({
     budget: { min: 500000, max: 3000000 },
   });
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    onClose?.();
     await fetchRecommendations(preferences, 10);
   };
 
