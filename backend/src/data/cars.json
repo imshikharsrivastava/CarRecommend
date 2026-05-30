@@ -1,0 +1,404 @@
+{
+  "cars": [
+    {
+      "id": "car-001",
+      "make": "Toyota",
+      "model": "Camry",
+      "variant": "LE",
+      "year": 2024,
+      "price": 2800000,
+      "type": "sedan",
+      "fuelType": "petrol",
+      "transmission": "automatic",
+      "engine": {
+        "displacement": 2500,
+        "power": 203,
+        "torque": 184
+      },
+      "mileage": 11.2,
+      "seating": 5,
+      "specs": {
+        "dimensions": {
+          "length": 4885,
+          "width": 1840,
+          "height": 1455
+        },
+        "weight": 1495,
+        "features": ["Sunroof", "Touchscreen", "Cruise Control", "Backup Camera"],
+        "warranty": "3 Years / 100000 km",
+        "serviceCenters": 250
+      },
+      "safetyRating": {
+        "nhtsa": 5,
+        "euroncap": 4.5,
+        "crashTest": "Good"
+      },
+      "colors": ["White", "Black", "Silver", "Blue"],
+      "images": ["camry-1.jpg", "camry-2.jpg"],
+      "rating": 4.5,
+      "reviewCount": 245,
+      "createdAt": "2024-01-15",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-002",
+      "make": "Honda",
+      "model": "Civic",
+      "variant": "EX",
+      "year": 2024,
+      "price": 2400000,
+      "type": "sedan",
+      "fuelType": "petrol",
+      "transmission": "manual",
+      "engine": {
+        "displacement": 1500,
+        "power": 174,
+        "torque": 156
+      },
+      "mileage": 14.5,
+      "seating": 5,
+      "specs": {
+        "dimensions": {
+          "length": 4630,
+          "width": 1800,
+          "height": 1415
+        },
+        "weight": 1290,
+        "features": ["Touchscreen", "Backup Camera", "Lane Keeping Assist"],
+        "warranty": "3 Years / 100000 km",
+        "serviceCenters": 280
+      },
+      "safetyRating": {
+        "nhtsa": 5,
+        "euroncap": 4.5,
+        "crashTest": "Good"
+      },
+      "colors": ["Red", "White", "Black", "Silver"],
+      "images": ["civic-1.jpg", "civic-2.jpg"],
+      "rating": 4.3,
+      "reviewCount": 189,
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-003",
+      "make": "Hyundai",
+      "model": "Creta",
+      "variant": "SX",
+      "year": 2024,
+      "price": 1800000,
+      "type": "SUV",
+      "fuelType": "diesel",
+      "transmission": "automatic",
+      "engine": {
+        "displacement": 1600,
+        "power": 128,
+        "torque": 260
+      },
+      "mileage": 18.5,
+      "seating": 5,
+      "specs": {
+        "dimensions": {
+          "length": 4300,
+          "width": 1790,
+          "height": 1590
+        },
+        "weight": 1190,
+        "features": ["Sunroof", "Touchscreen", "Cruise Control", "Parking Sensors"],
+        "warranty": "5 Years / 100000 km",
+        "serviceCenters": 320
+      },
+      "safetyRating": {
+        "nhtsa": 4,
+        "euroncap": 4,
+        "crashTest": "Acceptable"
+      },
+      "colors": ["White", "Black", "Silver", "Brown"],
+      "images": ["creta-1.jpg", "creta-2.jpg"],
+      "rating": 4.2,
+      "reviewCount": 412,
+      "createdAt": "2024-01-20",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-004",
+      "make": "Maruti",
+      "model": "Swift",
+      "variant": "VXi",
+      "year": 2024,
+      "price": 900000,
+      "type": "hatchback",
+      "fuelType": "petrol",
+      "transmission": "manual",
+      "engine": {
+        "displacement": 1200,
+        "power": 83,
+        "torque": 113
+      },
+      "mileage": 20.5,
+      "seating": 5,
+      "specs": {
+        "dimensions": {
+          "length": 3840,
+          "width": 1735,
+          "height": 1485
+        },
+        "weight": 862,
+        "features": ["Power Windows", "Touchscreen", "Backup Camera"],
+        "warranty": "3 Years / 100000 km",
+        "serviceCenters": 1000
+      },
+      "safetyRating": {
+        "nhtsa": 3.5,
+        "euroncap": 3.5,
+        "crashTest": "Average"
+      },
+      "colors": ["White", "Black", "Red", "Silver"],
+      "images": ["swift-1.jpg", "swift-2.jpg"],
+      "rating": 3.8,
+      "reviewCount": 782,
+      "createdAt": "2024-03-05",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-005",
+      "make": "Tata",
+      "model": "Nexon",
+      "variant": "XZ+",
+      "year": 2024,
+      "price": 1200000,
+      "type": "SUV",
+      "fuelType": "petrol",
+      "transmission": "automatic",
+      "engine": {
+        "displacement": 1200,
+        "power": 110,
+        "torque": 200
+      },
+      "mileage": 16.2,
+      "seating": 5,
+      "specs": {
+        "dimensions": {
+          "length": 3995,
+          "width": 1804,
+          "height": 1606
+        },
+        "weight": 1190,
+        "features": ["Touchscreen", "Parking Sensors", "Rear Parking Camera"],
+        "warranty": "3 Years / 100000 km",
+        "serviceCenters": 280
+      },
+      "safetyRating": {
+        "nhtsa": 4.5,
+        "euroncap": 4,
+        "crashTest": "Good"
+      },
+      "colors": ["Red", "White", "Black", "Silver"],
+      "images": ["nexon-1.jpg", "nexon-2.jpg"],
+      "rating": 4.1,
+      "reviewCount": 356,
+      "createdAt": "2024-02-15",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-006",
+      "make": "BMW",
+      "model": "3 Series",
+      "variant": "320i",
+      "year": 2024,
+      "price": 4500000,
+      "type": "sedan",
+      "fuelType": "petrol",
+      "transmission": "automatic",
+      "engine": {
+        "displacement": 1998,
+        "power": 184,
+        "torque": 300
+      },
+      "mileage": 12.8,
+      "seating": 5,
+      "specs": {
+        "dimensions": {
+          "length": 4719,
+          "width": 1827,
+          "height": 1435
+        },
+        "weight": 1500,
+        "features": ["Premium Leather", "Sunroof", "Advanced Touchscreen", "Heads Up Display"],
+        "warranty": "2 Years / 40000 km",
+        "serviceCenters": 50
+      },
+      "safetyRating": {
+        "nhtsa": 5,
+        "euroncap": 5,
+        "crashTest": "Excellent"
+      },
+      "colors": ["Black", "White", "Grey", "Blue", "Red"],
+      "images": ["bmw-1.jpg", "bmw-2.jpg"],
+      "rating": 4.6,
+      "reviewCount": 128,
+      "createdAt": "2024-01-10",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-007",
+      "make": "Mahindra",
+      "model": "XUV700",
+      "variant": "AX7",
+      "year": 2024,
+      "price": 2200000,
+      "type": "SUV",
+      "fuelType": "diesel",
+      "transmission": "automatic",
+      "engine": {
+        "displacement": 2000,
+        "power": 185,
+        "torque": 450
+      },
+      "mileage": 17.8,
+      "seating": 7,
+      "specs": {
+        "dimensions": {
+          "length": 4795,
+          "width": 1890,
+          "height": 1690
+        },
+        "weight": 1615,
+        "features": ["Panoramic Sunroof", "Touchscreen", "Panoramic Display", "ADAS"],
+        "warranty": "5 Years / 150000 km",
+        "serviceCenters": 350
+      },
+      "safetyRating": {
+        "nhtsa": 5,
+        "euroncap": 4.5,
+        "crashTest": "Good"
+      },
+      "colors": ["Black", "White", "Silver", "Red"],
+      "images": ["xuv700-1.jpg", "xuv700-2.jpg"],
+      "rating": 4.4,
+      "reviewCount": 267,
+      "createdAt": "2024-01-25",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-008",
+      "make": "Skoda",
+      "model": "Kushaq",
+      "variant": "Ambition",
+      "year": 2024,
+      "price": 1300000,
+      "type": "SUV",
+      "fuelType": "petrol",
+      "transmission": "manual",
+      "engine": {
+        "displacement": 1500,
+        "power": 110,
+        "torque": 200
+      },
+      "mileage": 15.9,
+      "seating": 5,
+      "specs": {
+        "dimensions": {
+          "length": 4256,
+          "width": 1786,
+          "height": 1612
+        },
+        "weight": 1150,
+        "features": ["Touchscreen", "Rear Parking Camera", "Cruise Control"],
+        "warranty": "3 Years / 100000 km",
+        "serviceCenters": 120
+      },
+      "safetyRating": {
+        "nhtsa": 4.5,
+        "euroncap": 4.5,
+        "crashTest": "Good"
+      },
+      "colors": ["White", "Black", "Silver", "Red"],
+      "images": ["kushaq-1.jpg", "kushaq-2.jpg"],
+      "rating": 4.3,
+      "reviewCount": 145,
+      "createdAt": "2024-02-20",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-009",
+      "make": "Kia",
+      "model": "Seltos",
+      "variant": "HTX+",
+      "year": 2024,
+      "price": 1500000,
+      "type": "SUV",
+      "fuelType": "diesel",
+      "transmission": "automatic",
+      "engine": {
+        "displacement": 1600,
+        "power": 123,
+        "torque": 300
+      },
+      "mileage": 17.4,
+      "seating": 5,
+      "specs": {
+        "dimensions": {
+          "length": 4315,
+          "width": 1800,
+          "height": 1620
+        },
+        "weight": 1220,
+        "features": ["Touchscreen", "Parking Sensors", "Climate Control"],
+        "warranty": "5 Years / 150000 km",
+        "serviceCenters": 200
+      },
+      "safetyRating": {
+        "nhtsa": 4.5,
+        "euroncap": 4,
+        "crashTest": "Good"
+      },
+      "colors": ["White", "Black", "Silver", "Pearl"],
+      "images": ["seltos-1.jpg", "seltos-2.jpg"],
+      "rating": 4.2,
+      "reviewCount": 289,
+      "createdAt": "2024-03-10",
+      "updatedAt": "2024-05-30"
+    },
+    {
+      "id": "car-010",
+      "make": "Ferrari",
+      "model": "F8 Tributo",
+      "variant": "Coupe",
+      "year": 2024,
+      "price": 25000000,
+      "type": "sports",
+      "fuelType": "petrol",
+      "transmission": "automatic",
+      "engine": {
+        "displacement": 3902,
+        "power": 720,
+        "torque": 770
+      },
+      "mileage": 8.5,
+      "seating": 2,
+      "specs": {
+        "dimensions": {
+          "length": 4611,
+          "width": 1971,
+          "height": 1213
+        },
+        "weight": 1405,
+        "features": ["Carbon Fiber", "Premium Sound System", "Adaptive Suspension"],
+        "warranty": "3 Years / 30000 km",
+        "serviceCenters": 5
+      },
+      "safetyRating": {
+        "nhtsa": 5,
+        "euroncap": 5,
+        "crashTest": "Excellent"
+      },
+      "colors": ["Rosso Corsa", "Nero", "Bianco", "Blu"],
+      "images": ["f8-1.jpg", "f8-2.jpg"],
+      "rating": 4.8,
+      "reviewCount": 45,
+      "createdAt": "2024-01-05",
+      "updatedAt": "2024-05-30"
+    }
+  ]
+}
